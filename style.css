@@ -1,5 +1,4 @@
 *{
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -12,26 +11,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 main{
-    height: 657px;
+    height: 630px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-#conteudo{
-    height: 15%;
-    width: 60%;
-    display: flex;
     position: relative;
-    justify-content: center;
-    align-items: center;
-}
-#conteudo2{
-    height: 85%;
-    width: 60%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
 }
