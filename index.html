@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontes: -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="max-w-full h-20 flex justify-center items-center relative">
+        <h1 class="text-4xl font-semibold text-center text-gray-800">EsToDoList</h1>
+        <button class="flex text-3xl text-gray-700 hover:text-green-700 transition absolute right-10">☰</button>
+    </header>
+    <main>
+        <div id="conteudo" class="">
+            <input type="text" placeholder="Digite uma tarefa..." class="flex-grow p-3.5 w-70 h-10  bg-white border-gray-300 focus:outline-none absolute top-10 transition duration-150 ease-in-out shadow-md rounded-lg">
+            <button id="adicionar-tarefa-btn" class="flex-shrink-0 w-12 h-12 bg-lime-500 text-white text-2xl font-bold rounded-lg absolute top-9 right-65 transition duration-150 ease-in-out shadow-md">+</button>
+        </div>
+        <div id="conteudo2" class=""></div>
+    </main>
+</body>
+
+</html>
