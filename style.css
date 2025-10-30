@@ -19,3 +19,15 @@ main{
     flex-wrap: wrap;
     position: relative;
 }
+ul{
+    scrollbar-width: none;
+    padding-top: 60px;
+}
+li{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+}
